@@ -1,4 +1,4 @@
-package com.example.astyletech.lebowebview;
+package com.example.astyletech.lebowebview.Activities;
 
 import android.content.Intent;
 import android.support.design.widget.NavigationView;
@@ -14,6 +14,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import com.example.astyletech.lebowebview.Models.Url;
+import com.example.astyletech.lebowebview.R;
 
 
 public class MainActivity extends AppCompatActivity {

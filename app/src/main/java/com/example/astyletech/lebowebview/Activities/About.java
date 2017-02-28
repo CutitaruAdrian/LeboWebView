@@ -1,4 +1,4 @@
-package com.example.astyletech.lebowebview;
+package com.example.astyletech.lebowebview.Activities;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.astyletech.lebowebview.Models.Url;
+import com.example.astyletech.lebowebview.R;
 
 
 public class About extends AppCompatActivity {
