@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/webdevelop"
+            android:icon="@drawable/coding"
+            android:title="Creare Web Site" />
+        <item
+            android:id="@+id/mentenance"
+            android:icon="@drawable/settings"
+            android:title="Mentenanta Web Site" />
+        <item
+            android:id="@+id/seo"
+            android:icon="@drawable/computer"
+            android:title="Optimizare SEO" />
+        <item
+            android:id="@+id/mobiledevelop"
+            android:icon="@drawable/smartphone"
+            android:title="Mobile Develop" />
+        <item android:title="">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/about"
+                        android:icon="@drawable/about"
+                        android:title="Despre" />
+
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
