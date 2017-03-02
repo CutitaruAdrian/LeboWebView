@@ -26,9 +26,7 @@ public class About extends AppCompatActivity {
         setContentView(R.layout.activity_about);
         toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
-        getSupportActionBar().setTitle(null);
+        getSupportActionBar().setTitle("About");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
